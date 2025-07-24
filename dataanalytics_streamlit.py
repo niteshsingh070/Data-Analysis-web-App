@@ -77,7 +77,7 @@ df = Bowlers
 
 fig3 = px.bar(df, x=Bowlers['PLAYER'], y=Bowlers['Econ'], color=Bowlers['Wkts'])
 st.plotly_chart(fig3)
-st.title('Bowers who leaking more runs')
+st.title('Bowlers who leaking more runs')
 Bowlers_matches = Bowlers[Bowlers['Econ']>=8.50]
 Ecobowlers=(Bowlers_matches['PLAYER'])
 Economy=Bowlers_matches['Econ']
