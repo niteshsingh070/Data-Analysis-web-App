@@ -4,7 +4,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 #batsman=pd.read_csv('https://raw.githubusercontent.com/akpythonyt/Datasets/main/Top_100_batsman.csv')
-batsman = pd.read_csv("dataanalyticsapp-main\Top_100_batsman.csv")
+#batsman = pd.read_csv("dataanalyticsapp-main\Top_100_batsman.csv")
+batsman = pd.read_csv("Top_100_batsman.csv")
 
 st.title('IPL analytics 2008- 2019')
 st.title('Batsman KPIs')
