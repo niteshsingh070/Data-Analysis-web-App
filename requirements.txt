@@ -1,5 +1,5 @@
 streamlit>=1.33.0
-plotly==5.8.0
-numpy==1.24.4
 pandas==2.3.1
+numpy==2.3.0
+plotly==5.18.0  # or latest
 openpyxl==3.0.10
