@@ -90,7 +90,11 @@ st.markdown(
     <hr style="margin-top: 50px; border-top: 1px solid #bbb;" />
     <div style="text-align: center; padding: 10px; color: gray; font-size: 24px;">
     <a href="https://github.com/niteshsingh070" target="_blank">GitHub</a>
+    &nbsp
+    <a href="https://www.linkedin.com/in/niteshsingh7/" target="_blank">GitHub</a>
+    
     </div>
+    
     <div style="text-align: center; padding: 10px; color: gray; font-size: 14px;">
         © 2025 Nitesh Singh | Built with ❤️ using Streamlit
     </div>
