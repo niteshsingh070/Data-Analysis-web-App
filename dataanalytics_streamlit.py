@@ -84,3 +84,4 @@ Economy=Bowlers_matches['Econ']
 fig4 = px.pie(values=Economy, names= Ecobowlers)
 
 st.plotly_chart(fig4)
+
