@@ -85,3 +85,14 @@ fig4 = px.pie(values=Economy, names= Ecobowlers)
 
 st.plotly_chart(fig4)
 
+st.markdown(
+    """
+    <a href="https://github.com/niteshsingh070" target="_blank">GitHub</a>
+
+    <hr style="margin-top: 50px; border-top: 1px solid #bbb;" />
+    <div style="text-align: center; padding: 10px; color: gray; font-size: 14px;">
+        © 2025 Nitesh Singh | Built with ❤️ using Streamlit
+    </div>
+    """,
+    unsafe_allow_html=True
+)
