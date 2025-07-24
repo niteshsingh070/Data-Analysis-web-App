@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-#batsman=pd.read_csv('https://raw.githubusercontent.com/akpythonyt/Datasets/main/Top_100_batsman.csv')
-#batsman = pd.read_csv("dataanalyticsapp-main\Top_100_batsman.csv")
 batsman = pd.read_csv("Top_100_batsman.csv")
 
 st.title('IPL analytics 2008- 2019')
@@ -22,7 +20,9 @@ fig6.add_trace(go.Scatter(x=topfive, y=(batsman['Runs'].iloc[0:5]),
 st.plotly_chart(fig6)
 
 #Matches=pd.read_csv('https://raw.githubusercontent.com/akpythonyt/Datasets/main/matches.csv')
-Matches=pd.read_csv("dataanalyticsapp-main\matches.csv")
+#Matches=pd.read_csv("dataanalyticsapp-main\matches.csv")
+Matches = pd.read_csv("matches.csv")
+
 bat=Matches['toss_winner'].loc[Matches['toss_decision']=='bat']
 battoss=(bat.value_counts())
 st.title('Teams chose batting when they won toss')
@@ -57,10 +57,13 @@ fig1 = go.Figure(data=[go.Scatter(
         size=[40, 60, 80, 100,105],
     )
 )])
+
 st.plotly_chart(fig1)
 st.title('Top 5 Bowlers Based on wickets')
 #Bowlers=pd.read_csv('https://raw.githubusercontent.com/akpythonyt/Datasets/main/Top_100_bowlers.csv')
-Bowlers=pd.read_csv("dataanalyticsapp-main\Top_100_bowlers.csv")
+#Bowlers=pd.read_csv("dataanalyticsapp-main\Top_100_bowlers.csv")
+Bowlers=pd.read_csv("Top_100_bowlers.csv")
+
 Bowlers_matches = Bowlers[Bowlers['Wkts']>1]
 topfive=(Bowlers_matches['PLAYER'].iloc[0:5])
 fig2 = go.Figure()
