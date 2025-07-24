@@ -24,25 +24,5 @@ An interactive web app that visualizes IPL statistics using Python, Streamlit, a
 - 🔍 Pie, Line, and Bar Charts for visual comparisons
 
 ---
-
-## 📁 Dataset Sources
-
-- `Top_100_batsman.csv` – Top 100 IPL batsmen stats  
-- `Top_100_bowlers.csv` – Top 100 IPL bowlers stats  
-- `matches.csv` – Match-level IPL data  
-
----
-
-## 🖼️ Screenshots
-
-*(Optional: Insert chart images or Streamlit UI screenshots here)*
-
----
-
-## 🚀 Run Locally
-
-```bash
-git clone https://github.com/your-username/ipl-analytics-dashboard.git
-cd ipl-analytics-dashboard
-pip install -r requirements.txt
-streamlit run dataanalytics_streamlit.py
+## <img width="1914" height="865" alt="image" src="https://github.com/user-attachments/assets/54e22e82-32f6-46f1-bf10-7fe64e5771a3" />
+ Screenshots
