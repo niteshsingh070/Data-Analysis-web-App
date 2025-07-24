@@ -91,7 +91,7 @@ st.markdown(
     <div style="text-align: center; padding: 10px; color: gray; font-size: 24px;">
     <a href="https://github.com/niteshsingh070" target="_blank">GitHub</a>
     &nbsp
-    <a href="https://www.linkedin.com/in/niteshsingh7/" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/niteshsingh7/" target="_blank">LinkedIn</a>
     
     </div>
     
